@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* 浅灰色背景 */
+  color: #333333; /* 深灰色字体 */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #00FFA6;
+}
+
+h2 {
+  color: #00FFA6;
+  margin-top: 30px;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styled-button {
+  background-color: #00FFA6;
+  color: #0d0d0d;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.styled-button:hover {
+  background-color: #00e699;
+}
+
+.styled-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.form-group input {
+  margin: 5px 0;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #00FFA6;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.nft-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.listBox {
+  background-color: #1a1a1a;
+  border: 1px solid #00FFA6;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.listBox img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.nft-for-sale {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nft-for-sale li {
+  margin: 10px 0;
+  background-color: #1a1a1a;
+  padding: 10px;
+  border: 1px solid #00FFA6;
+  border-radius: 5px;
+}
